@@ -16,6 +16,7 @@ HTML Coding Standards you must conform to when writing HTML in XHTMLized project
 - [Comments](#comments)
 - [Accessibility](#accessibility)
 - [Attaching CSS and JavaScript files](#attaching-css-and-javascript-files)
+- [License](#license)
 
 ## Write valid HTML
 
@@ -269,3 +270,7 @@ If necessary attach JavaScript files at the end of document before </body> tag, 
 </body>
 </html>
 ```
+
+## License
+
+![](http://i.creativecommons.org/l/by/4.0/80x15.png) This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
