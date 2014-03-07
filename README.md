@@ -3,6 +3,20 @@ HTML Coding Standards
 
 HTML Coding Standards you must conform to when writing HTML in XHTMLized projects.
 
+## Table of contents
+
+- [Write valid HTML](#write-valid-html)
+- [Indentation](#indentation)
+- [Line endings](#line-endings)
+- [Encoding and charset](#encoding-and-charset)
+- [Special characters](#special-characters)
+- [Images](#images)
+- [Images prefixes](#images-prefixes)
+- [HTML anchors](#html-anchors)
+- [Comments](#comments)
+- [Accessibility](#accessibility)
+- [Attaching CSS and JavaScript files](#attaching-css-and-javascript-files)
+
 ## Write valid HTML
 
 All HTML code must be valid and well formed. You must validate it against the HTML specification pertaining to the project you are working on. Unless another specification is requested or needed, use HTML5 Document Type Definition:
@@ -112,7 +126,7 @@ Example:
 <!-- / container -->
 ```
 
-## Line Endings
+## Line endings
 
 Format files with \n as the line ending (Unix line endings). Do not use \r\n (Windows line endings) or \r (Apple OS's). 
 
@@ -239,7 +253,7 @@ Adhere to basic accessibility principles when writing HTML.
 - Use alt attributes on img elements - [Read more &raquo;](http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS-20081211/html.html#H37)
 - Use null alt text and no title attribute on img elements for images that Assistive Technology should ignore - [Read more &raquo;](http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS-20081211/html.html#H67)
 
-## Attaching CSS and JavaScript Files
+## Attaching CSS and JavaScript files
 
 If necessary attach styleesheets in `head` using a `link` element, for example:
 
