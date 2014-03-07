@@ -262,7 +262,7 @@ If necessary attach styleesheets in `head` using a `link` element, for example:
 <link rel="stylesheet" media="all" href="_ui/css/main.css" />
 ```
 
-If necessary attach JavaScript files at the end of document before </body> tag, for example:
+If necessary attach JavaScript files at the end of document before `</body>` tag, for example:
 
 ```html	
 <script src="_ui/js/jquery.jcarousel.min.js"></script>
@@ -273,4 +273,6 @@ If necessary attach JavaScript files at the end of document before </body> tag, 
 
 ## License
 
-![](http://i.creativecommons.org/l/by/4.0/80x15.png) This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+[![](http://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
+
+This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
