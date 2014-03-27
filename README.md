@@ -69,7 +69,7 @@ Nested elements must be nested appropriately - for example:
 ```html
 <!-- Correct -->
 <div>
-    <p>Some text</p>
+  <p>Some text</p>
 </div>
 ```
 
@@ -80,7 +80,7 @@ If elements overlap they are not properly nested. This is illustrated in the fol
 ```html
 <!-- Wrong -->
 <div>
-    <p>Some text</div>
+  <p>Some text</div>
 </p>
 ```
 
@@ -98,7 +98,7 @@ Attribute values, even numeric attributes should be quoted—for example:
 
 ## Indentation
 
-Use indent of 1 tab for code indentation.
+Use soft tabs with 2 spaces for code indentation.
 
 Use indentation consistently to enhance the readability of the code.
 
@@ -108,21 +108,21 @@ Example:
 
 ```html
 <div class="container">
-	<header class="header">
-		<h1>Site Name<span></span></h1>
-	</header>
-	<!-- / header -->
-	<hr>
-	<nav class="navigation">
-		<ul>
-			<li><a href="#">Link</a></li>
-			<li><a href="#">Link</a></li>
-			<li><a href="#">Link</a></li>
-			<li><a href="#">Link</a></li>
-			<li><a href="#">Link</a></li>
-		</ul>
-	</nav>
-	<!-- / navigation -->
+  <header class="header">
+    <h1>Site Name<span></span></h1>
+  </header>
+  <!-- / header -->
+  <hr>
+  <nav class="navigation">
+  	<ul>
+      <li><a href="#">Link</a></li>
+      <li><a href="#">Link</a></li>
+      <li><a href="#">Link</a></li>
+      <li><a href="#">Link</a></li>
+      <li><a href="#">Link</a></li>
+  	</ul>
+  </nav>
+  <!-- / navigation -->
 </div>
 <!-- / container -->
 ```
@@ -211,14 +211,14 @@ Examples:
 
 ```html
 <ol class="accessibility-nav">
-    <li><a href="#navigation">Skip to navigation</a></li>
-    <li><a href="#content">Skip to content</a></li>
-    <li><a href="#sidebar">Skip to sidebar</a></li>
+  <li><a href="#navigation">Skip to navigation</a></li>
+  <li><a href="#content">Skip to content</a></li>
+  <li><a href="#sidebar">Skip to sidebar</a></li>
 </ol>
 <!-- / accessibility-nav -->
  
 <p>
-    <a href="#" title="Go to homepage"><em>Home</em></a>
+  <a href="#" title="Go to homepage"><em>Home</em></a>
 </p>
 <!-- / breadcrumb -->
 ```
