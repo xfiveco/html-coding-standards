@@ -259,14 +259,14 @@ Adhere to basic accessibility principles when writing HTML.
 If necessary attach styleesheets in `head` using a `link` element, for example:
 
 ```html	
-<link rel="stylesheet" media="all" href="_ui/css/main.css" />
+<link rel="stylesheet" media="all" href="css/main.css" />
 ```
 
 If necessary attach JavaScript files at the end of document before `</body>` tag, for example:
 
 ```html	
-<script src="_ui/js/jquery.jcarousel.min.js"></script>
-<script src="_ui/js/main.js"></script>
+<script src="js/jquery.jcarousel.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
 ```
