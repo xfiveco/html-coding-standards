@@ -1,7 +1,7 @@
 HTML Coding Standards
 =====================
 
-HTML Coding Standards you must conform to when writing HTML in XHTMLized projects.
+HTML Coding Standards you must conform to when writing HTML in Xfive projects.
 
 ## Table of contents
 
@@ -150,37 +150,6 @@ Encode special characters, for examle:
 &gt;
 ```
 
-## Images
-
-Always define width and height of the inline HTML images. It speeds up page loading. You can scale the images by leaving out either width or height attribute though this isn't recommended in usual situations.
-
-```html	
-<img src="john.jpg" alt="John Doe" width="200" height="100">
-```
-
-Check Accessibility section for the correct use of alt attribute.
-
-## Images prefixes
-
-For repeating elements use prefix naming (i.e bg_body.png):
-
-- sprite = images used as CSS sprites
-- bg = images used for backgrounds
-- border = border graphic, including corners
-- logo = images with the clients logo
-- nav = images used for navigation items
-- bullet = images used for the background of an li-element
-- btn = images used for form buttons or links that act as buttons
-- ico = images that are icons, as part of a user interface (UI)
-- label = images used for labels such as form field labels
-- misc = images that cannot reasonably be classified into any group
-- seal = images used for security seals for SSL, VISA, MC, AMEX, etc.
-- adv = advertising images
-- txt = for image replacement for text
-- pic = for placeholder images (place in /_media/)
-
-For images that are part of the main elements (Header, Sidebar, Footer), use suffix naming. Eg. use sidebar_bottom, sidebar_top, sidebar_bg, etc.
-
 ## HTML anchors
 
 When you need to link to the section inside a HTML document use ID attribute:
@@ -253,23 +222,6 @@ Adhere to basic accessibility principles when writing HTML.
 
 - Use alt attributes on img elements - [Read more &raquo;](http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS-20081211/html.html#H37)
 - Use null alt text and no title attribute on img elements for images that Assistive Technology should ignore - [Read more &raquo;](http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS-20081211/html.html#H67)
-
-## Attaching CSS and JavaScript files
-
-If necessary attach styleesheets in `head` using a `link` element, for example:
-
-```html	
-<link rel="stylesheet" media="all" href="css/main.css" />
-```
-
-If necessary attach JavaScript files at the end of document before `</body>` tag, for example:
-
-```html	
-<script src="js/jquery.jcarousel.min.js"></script>
-<script src="js/main.js"></script>
-</body>
-</html>
-```
 
 ## License
 
