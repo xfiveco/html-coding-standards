@@ -141,7 +141,7 @@ Set encoding of HTML document and its charset to UTF-8 Normalization Form C (NFC
 
 ## Special characters
 
-Encode special characters, for examle:
+Encode special characters, for example:
 
 ```html
 &amp;
