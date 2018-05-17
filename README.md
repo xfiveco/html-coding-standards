@@ -114,13 +114,13 @@ Example:
   <!-- / header -->
   <hr>
   <nav class="navigation">
-  	<ul>
+    <ul>
       <li><a href="#">Link</a></li>
       <li><a href="#">Link</a></li>
       <li><a href="#">Link</a></li>
       <li><a href="#">Link</a></li>
       <li><a href="#">Link</a></li>
-  	</ul>
+    </ul>
   </nav>
   <!-- / navigation -->
 </div>
